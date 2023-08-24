@@ -29,7 +29,7 @@ const Header = ({ sidebarToggler, setSidebarToggler }) => {
       })
       .catch((error) => {
         console.error("Logout error:", error);
-      });`  `
+      });
   }
   return (
     <header>
